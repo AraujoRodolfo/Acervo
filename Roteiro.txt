@@ -16,7 +16,7 @@ Etapas:
 	- git clone https://github.com/AraujoRodolfo/Acervo.git
 	- cd Acervo
 4) git-bash
-	- git origin remote <url do seu repositorio criado > novo>
+	- git remote add origin <url do seu repositorio criado > novo>
 	- git status
 	- git add .
 	- git commit "inicio do projeto clonado"
