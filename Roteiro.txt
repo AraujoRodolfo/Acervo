@@ -1,0 +1,33 @@
+Etapas:
+1) Abrir email
+2) Abrir github
+	- criar um repositório
+	
+3) Abrir git-bash
+	- cd .. (sair da pasta git)
+	- cd .. (sair da pasta program files)
+	- cd users
+	- cd Usuário
+	- cd Documents
+	- mkdir netBeansProjects
+	- cd netBeansProjects
+	- git config --global user.name ""
+	- git config --global user.email ""
+	- git clone https://github.com/AraujoRodolfo/Acervo.git
+	- cd Acervo
+4) git-bash
+	- git origin remote <url do seu repositorio criado > novo>
+	- git status
+	- git add .
+	- git commit "inicio do projeto clonado"
+5) Abrir netBeans
+	- Abrir o Projeto Acervo 
+	- Criar a Classe Livro
+	- Salvar
+6) git-bash
+	- git status
+	- git add no que estiver em vermelho
+	- git commit "criação da classe Acervo"
+	- git push -u origin master
+	- digitar seus dados de login
+7) Parte da dupla que será feita:
